@@ -12,6 +12,7 @@ public class Main {
                 String correct = sc.nextLine();
                 String vasya = sc.nextLine();
                 counter++;
+
                 if(correct.equals(vasya)){
                     System.out.println("СORRECT");
                     pin_code_coincided = true;
